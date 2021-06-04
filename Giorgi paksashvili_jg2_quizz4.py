@@ -31,4 +31,4 @@ while ind <= 76:
         print(title, price + "$")
     ind += 19
     file.write(title + ',' + price + '\n')
-    # sleep(randint(15, 20))
+    sleep(randint(15, 20))
